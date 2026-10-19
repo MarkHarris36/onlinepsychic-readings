@@ -3,7 +3,7 @@ Theme Name: Online Psychic Readings
 Theme URI: https://onlinepsychic-readings.net
 Author: Online Psychic Readings
 Description: Custom theme for Online Psychic Readings — chat, phone, or video on your terms.
-Version: 2.0.1
+Version: 2.1.0
 Text Domain: oprd-theme
 */
 
@@ -509,3 +509,23 @@ form .field{margin-bottom:16px}
   .site-header,.footer,.back-to-top{display:none}
   body{background:#fff;color:#000}
 }
+/* Редакційні хаби й тематичні сторінки. */
+.editorial-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:30px 0}
+.editorial-card{background:#fff;border:1px solid rgba(91,43,142,.14);border-radius:18px;padding:28px;box-shadow:0 12px 35px rgba(31,19,52,.05)}
+.editorial-card h3{margin:0 0 12px;font-size:1.3rem;line-height:1.3}
+.editorial-card h3 a{text-decoration:none;color:var(--c-primary)}
+.editorial-card p{margin:0 0 16px;color:var(--c-text-muted);line-height:1.65}
+.editorial-card .editorial-card-link{font-weight:700;color:var(--c-primary);text-decoration:none}
+.editorial-home-all{text-align:center;margin:28px 0 0}
+.editorial-article,.editorial-hub{max-width:900px;margin:0 auto}
+.editorial-lead{font-size:1.2rem;line-height:1.7;color:var(--c-text);margin-bottom:30px}
+.editorial-article h2{font-size:1.8rem;line-height:1.3;margin:42px 0 18px}
+.editorial-article h3{font-size:1.25rem;line-height:1.35;margin:25px 0 10px}
+.editorial-article p,.editorial-hub>p{line-height:1.8}
+.editorial-article .editorial-related{margin-top:42px;padding:24px 28px;border-radius:16px;background:#f7f3fb}
+.editorial-related h2{margin-top:0}
+.editorial-related ul{columns:2;margin:0;padding-left:20px}
+.editorial-related li{break-inside:avoid;margin:0 0 12px}
+.editorial-back{margin-top:28px}
+@media(max-width:900px){.editorial-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.editorial-grid{grid-template-columns:1fr}.editorial-card{padding:23px}.editorial-related ul{columns:1}}

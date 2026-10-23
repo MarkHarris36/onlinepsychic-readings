@@ -395,7 +395,7 @@ hr{border:0;height:1px;background:var(--c-border);margin:2.5rem 0}
   color:#857799;font-size:.82rem;
 }
 .footer-bottom p{margin:0}
-.footer-bottom .disclaimer{font-style:italic;color:#857799}
+.footer-bottom .disclaimer{font-style:italic;color:#bec9c6}
 .back-to-top{
   position:fixed;bottom:24px;right:24px;width:44px;height:44px;border-radius:50%;
   background:var(--c-primary);color:#fff;display:none;align-items:center;justify-content:center;

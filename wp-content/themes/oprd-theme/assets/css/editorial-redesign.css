@@ -215,6 +215,7 @@ a:focus-visible,button:focus-visible,textarea:focus-visible,summary:focus-visibl
 .footer h4{color:#fff}
 .footer p,.footer a,.footer small{color:#bec9c6}
 .footer a:hover{color:#fff}
+.footer .back-to-top{color:#fff}
 .footer-bottom{border-color:#39403f}
 @media(max-width:1120px){
  .oprd-nav-links a,.oprd-nav-links summary{padding:9px 8px;font-size:.77rem}
